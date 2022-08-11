@@ -7,17 +7,12 @@ module.exports = {
             {text: 'Contact', link: '/contact/'},
         ],
         sidebar: {
-            '/about/': [
+            '/': [
                 {
-                    text: 'About',
-                    items: [
-                        {text: 'My Story', link: '/about/my-story'},
-                        {text: 'About', link: '/about/index'}
-                    ]
-                }
-            ],
-            '/your/': [
-                {
+                    // items: [
+                    //     {text: 'About', link: '/about/'},
+                    //     {text: 'Your', link: '/your/our-story'}
+                    // ]
                     text: 'Your Story',
                     items: [
                         {text: 'Our Story', link: '/your/our-story.md'}, 
@@ -25,24 +20,73 @@ module.exports = {
                     ]
                 },
                 {
-                    text: 'Your Story',
+                    text: 'Your Story 2',
                     items: [
-                        {text: 'Our Story', link: '/your/our-story.md'}, 
-                        {text: 'Your Story', link: '/your/your-story.md'}
+                        {text: 'Our Story', link: '/your/our-story-2.md'}, 
+                        {text: 'Your Story', link: '/your/your-story-2.md'}
                     ]
                 }
             ],
-            // items: [
-            //     {text: 'My Story', link: '/about/my-story'},
+            // '/about/': [
             //     {
-            //         text: '',
+            //         text: 'About',
             //         items: [
-            //             {text: 'Your No.1 Story', link: '/about/your/your-story'},
-            //             {text: 'Our Story', this: '/about/your/our-story'}
+            //             {text: 'My Story', link: '/about/my-story'},
+            //             {text: 'About', link: '/about/index'}
             //         ]
             //     }
-            //     // {text: 'About', link: '/about/index'}
-            // ]
+            // ],
+            // '/your/': [
+            //     {
+            //         text: 'Your Story',
+            //         items: [
+            //             {text: 'Our Story', link: '/your/our-story.md'}, 
+            //             {text: 'Your Story', link: '/your/your-story.md'}
+            //         ]
+            //     },
+            //     {
+            //         text: 'Your Story 2',
+            //         items: [
+            //             {text: 'Our Story', link: '/your/our-story-2.md'}, 
+            //             {text: 'Your Story', link: '/your/your-story-2.md'}
+            //         ]
+            //     }
+            // ],
+
+            // {
+            //     items: [
+            //         {
+            //             text: 'About',
+            //             items: [
+            //                 {text: 'My Story', link: '/about/my-story'},
+            //                 {text: 'About', link: '/about/index'}
+            //             ]
+            //         }
+            //     ]
+            // },
+            // {
+            //     items: [
+            //         {
+            //             text: 'Story',
+            //             items: [
+            //                 {
+            //                     text: 'Story 1',
+            //                     items: [
+            //                         {text: 'Our Story', link: '/your/our-story.md'}, 
+            //                         {text: 'Your Story', link: '/your/your-story.md'}
+            //                     ]
+            //                 },
+            //                 {
+            //                     text: 'Story 2',
+            //                     items: [
+            //                         {text: 'Our Story 2', link: '/your/our-story-2.md'}, 
+            //                         {text: 'Your Story 2', link: '/your/your-story-2.md'}
+            //                     ]
+            //                 }
+            //             ]
+            //         }
+            //     ]
+            // }
         },
     }
 }
